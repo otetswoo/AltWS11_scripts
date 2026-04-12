@@ -1,0 +1,20 @@
+```
+# Scripts directory specific ignores
+scripts/__pycache__/
+scripts/*.pyc
+scripts/*.pyo
+scripts/.env
+scripts/.env.local
+scripts/node_modules/
+scripts/dist/
+scripts/build/
+scripts/coverage/
+scripts/htmlcov/
+scripts/.mypy_cache/
+scripts/.pytest_cache/
+scripts/.vscode/
+scripts/.idea/
+scripts/*.log
+scripts/*.tmp
+scripts/*.swp
+```
