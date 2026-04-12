@@ -1,20 +1,60 @@
 ```
-# Scripts directory specific ignores
-scripts/__pycache__/
-scripts/*.pyc
-scripts/*.pyo
-scripts/.env
-scripts/.env.local
-scripts/node_modules/
-scripts/dist/
-scripts/build/
-scripts/coverage/
-scripts/htmlcov/
-scripts/.mypy_cache/
-scripts/.pytest_cache/
-scripts/.vscode/
-scripts/.idea/
-scripts/*.log
-scripts/*.tmp
-scripts/*.swp
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
