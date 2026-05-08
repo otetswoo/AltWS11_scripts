@@ -18,8 +18,8 @@
 
 ### Скачать только нужную категорию (например, аудио):
 ```bash
-git clone --no-checkout <url-репозитория>
-cd <имя-репозитория>
+git clone --no-checkout https://github.com/otetswoo/AltWS11_scripts
+cd AltWS11_scripts
 git sparse-checkout init --cone
 git sparse-checkout set categories/audio
 git checkout
@@ -27,7 +27,7 @@ git checkout
 
 ### Или скачать весь репозиторий:
 ```bash
-git clone <url-репозитория>
+git clone https://github.com/otetswoo/AltWS11_scripts
 cd categories
 ```
 
